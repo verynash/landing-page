@@ -4,7 +4,7 @@ body{
 }
 
 .spanpage {
-    min-height: 100vh;
+    min-height: 98vh;
     display: flex;
     flex-direction: column;
 }
@@ -13,7 +13,7 @@ body{
     display: flex;
     font-size: 24px;
     color: #F9FAF8;
-    padding: 8px 15%;
+    padding: 8px 10%;
 }
 
 .header-left {
@@ -33,5 +33,75 @@ ul {
 }
 
 .content {
+    display: flex;
+    flex: 1 1 1;
+    margin-top: 3rem;
+    flex-flow: column nowrap;
+}
+
+.one {
+    display: flex;
+    flex-flow: row nowrap;
+    justify-content: space-between;
+    align-items: center;
+    padding: 0 10%;
+    margin-bottom: 2rem;
+}
+
+.one-left {
+    width: 50%;
+    color: #F9FAF8;
+    display: flex;
+    flex-flow: column nowrap;
+    align-items: flex-start;
+    padding-right: 2rem;
+}
+
+.one-left div {
+    margin-top: 0px;
+}
+
+.one-left h1 {
+    font-size: 48px;
+    font-weight: 900;
+    margin-bottom: 0px;
+}
+
+button {
+    color:#F9FAF8;
+    background-color: crimson;
+    border-radius: 8px;
+    font-size: 16px;
+    padding: 4px 12px;
+    border: 2px solid #F9FAF8
+}
+
+.one-right {
+    display: flex;
+    width: 50%;
     flex: 1;
+    justify-content: center;
+    align-items: center;
+}
+
+.two {
+    background-color: #F9FAF8;
+    color: #1F2937;
+    margin-left: -8px;
+    margin-right: -8px;
+    display: flex;
+    justify-content: center;
+}
+
+.two-top h1{
+    font-weight: 800;
+}
+
+.footer {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 24px;
+    color: #F9FAF8;
+    margin-top: auto;
 }
