@@ -16,6 +16,11 @@ body{
     padding: 8px 10%;
 }
 
+.header a {
+    color: #F9FAF8;
+    text-decoration: none;
+}
+
 .header-left {
     margin-right: auto;
     font-weight: bold;
@@ -30,6 +35,13 @@ ul {
     margin-left: auto;
     gap: 16px;
     font-weight: 100;
+    font-size: 18px;
+    color: #E5E7EB;
+}
+
+.header a:hover, .two-text a:hover {
+    color: gray;
+    text-decoration: underline;
 }
 
 .content {
@@ -45,7 +57,7 @@ ul {
     justify-content: space-between;
     align-items: center;
     padding: 0 10%;
-    margin-bottom: 2rem;
+    margin-bottom: 3rem;
 }
 
 .one-left {
@@ -65,6 +77,11 @@ ul {
     font-size: 48px;
     font-weight: 900;
     margin-bottom: 0px;
+}
+
+.one-left p {
+    font-size: 18px;
+    color: #E5E7EB;
 }
 
 button {
@@ -90,12 +107,50 @@ button {
     margin-left: -8px;
     margin-right: -8px;
     display: flex;
+    flex-flow: column nowrap;
     justify-content: center;
+    padding: 8px 10%;
+    gap: 16px;
 }
 
-.two-top h1{
-    font-weight: 800;
+.two-top h1 {
+    font-weight: 900;
+    text-align: center;
+    font-size: 36px;
 }
+
+.two-bottom {
+    display: flex;
+    flex-flow: row wrap;
+    justify-content: space-around;
+}
+
+h2 {
+    text-align: center;
+}
+
+.baki, .aot, .jujutsu-kaisen, .demon-slayer {
+    display: flex;
+    flex-flow: column nowrap;
+    width: 300px;
+}
+
+.two-image {
+    border-radius: 12px;
+    height: 170px;
+}
+
+.two-text {
+    text-align: center;
+    font-weight: 500;
+}
+
+.two-text a {
+    color: crimson;
+    text-decoration: none;
+    font-weight: 900;
+}
+
 
 .footer {
     display: flex;
