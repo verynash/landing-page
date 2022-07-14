@@ -11,9 +11,10 @@ body{
 
 .header {
     display: flex;
-    font-size: 24px;
+    font-size: 28px;
     color: #F9FAF8;
     padding: 8px 10%;
+    align-items: flex-end;
 }
 
 .header a {
@@ -23,7 +24,7 @@ body{
 
 .header-left {
     margin-right: auto;
-    font-weight: bold;
+    font-weight: 900;
 }
 
 ul {
@@ -93,12 +94,26 @@ button {
     border: 2px solid #F9FAF8
 }
 
+button:hover {
+    text-decoration: underline;
+    background-color: #F9FAF8;
+    color: crimson;
+    border: 2px solid crimson;
+    cursor: pointer;
+}
+
+
+
 .one-right {
     display: flex;
     width: 50%;
     flex: 1;
     justify-content: center;
     align-items: center;
+}
+
+#one-image {
+    border-radius: 4px;
 }
 
 .two {
@@ -138,6 +153,7 @@ h2 {
 .two-image {
     border-radius: 12px;
     height: 170px;
+    border: 2px solid black;
 }
 
 .two-text {
@@ -151,6 +167,68 @@ h2 {
     font-weight: 900;
 }
 
+.three {
+    display: flex;
+    flex-direction: column;
+    background-color: #E5E7EB;
+    font-size: 36px;
+    font-style: italic;
+    font-weight: 100;
+    color: #1F2937;
+    margin-left: -8px;
+    margin-right: -8px;
+    padding: 3rem 20%;
+}
+
+.three-bot {
+    text-align: right;
+}
+
+.four {
+    background-color: #F9FAF8;
+    color: #F9FAF8;
+    margin-left: -8px;
+    margin-right: -8px;
+    padding: 3rem 10%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.four-container {
+    background-color: crimson;
+    border-radius: 8px;
+    display: flex;
+    flex: 1;
+    flex-flow: row nowrap;
+    justify-content: space-around;
+}
+
+.four-left {
+    display: flex;
+    flex-direction: column;
+    flex: 2;
+    padding-left: 3rem;
+}
+
+#four-bold {
+    font-weight: 600;
+    font-size: 24px;
+    margin-bottom: -16px
+}
+
+#four-reg {
+    font-size: 18px;
+    margin-top: -16px
+}
+
+.four-right {
+    display: flex;
+    flex: 1;
+    padding-right: 3rem;
+    align-items: center;
+    justify-content: flex-end;
+}
 
 .footer {
     display: flex;
@@ -159,4 +237,6 @@ h2 {
     font-size: 24px;
     color: #F9FAF8;
     margin-top: auto;
+    padding: 8px;
+    margin-bottom: -8px;
 }
