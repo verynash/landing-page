@@ -239,3 +239,33 @@ h2 {
     padding: 8px;
     margin-bottom: -8px;
 }
+
+@media only screen and (max-width: 800px) {
+    .content {
+        margin-top: 1rem;
+    }
+    .header {
+        flex-direction: column;
+        text-align: right;
+    }
+    .header-left {
+        margin: 0 0 1rem auto;
+    }
+    .header>div>ul {
+        flex-direction: column;
+    }
+    .one {
+        flex-flow: column nowrap;
+    }
+    .one-left {
+        width: 100%;
+        padding-right: 0;
+        margin-bottom: 1rem;
+    }
+    .one-left>div {
+        margin: 0 auto 0 auto;
+    }
+    .one-right {
+        width: 100%;
+    }
+}
