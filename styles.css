@@ -268,4 +268,22 @@ h2 {
     .one-right {
         width: 100%;
     }
+    .three {
+        padding: 2rem 10%;
+        font-size: 18px;
+    }
+    .four-container {
+        flex-flow: column wrap;
+    }
+    .four-left {
+        padding: 0 1rem;
+        text-align: center;
+    }
+    #four-bold {
+        font-size: 24px;
+    }
+    .four-right {
+        padding: 0 1rem 1rem;
+        justify-content: center;
+    }
 }
